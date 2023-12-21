@@ -1,0 +1,33 @@
+achievementTextures.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+achievementComplete
+  rotate: false
+  xy: 1, 1
+  size: 350, 135
+  orig: 350, 135
+  offset: 0, 0
+  index: -1
+achievementIncomplete
+  rotate: false
+  xy: 352, 1
+  size: 350, 135
+  orig: 350, 135
+  offset: 0, 0
+  index: -1
+scrollBottom
+  rotate: false
+  xy: 1, 137
+  size: 480, 111
+  orig: 480, 111
+  offset: 0, 0
+  index: -1
+scrollTop
+  rotate: false
+  xy: 482, 137
+  size: 480, 111
+  orig: 480, 111
+  offset: 0, 0
+  index: -1

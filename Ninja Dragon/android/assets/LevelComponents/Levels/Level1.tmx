@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="67" height="9" tilewidth="160" tileheight="160" nextobjectid="40">
+ <tileset firstgid="1" name="background" tilewidth="160" tileheight="160" tilecount="49" columns="7">
+  <image source="background.png" width="1120" height="1120"/>
+ </tileset>
+ <tileset firstgid="50" name="spikes" tilewidth="160" tileheight="160" tilecount="1" columns="1">
+  <image source="spikes.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="51" name="silverGround" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverGround.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="58" name="silverCeiling" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverCeiling.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="65" name="Flag" tilewidth="326" tileheight="1070" tilecount="1" columns="1">
+  <image source="Flag.png" width="326" height="1070"/>
+ </tileset>
+ <layer name="background" width="67" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztybUNAwEQAME3MzMzc//NeRLLRdyvNNEmSdqvDFly5ClQpBTwlalQpUadBs2Ar0WbDl169BkEfENGjJkwZcY84FuwZMWaDVt2Ad+eA0dOnLlwDfhu3Hnw5MWbT8CX9u8LsQMtpA==
+  </data>
+ </layer>
+ <layer name="graphics" width="67" height="9">
+  <data encoding="base64" compression="zlib">
+   eJzlkskNwCAMBKkpd8jdf1OZAiKBwYZIWJqXYdde8M65DXY44IQLbvCN9TSqU9KJ1U3xs5pRWjk7SXeosbOFp9V7a8+qoRfSsMiidg6p/iXy/lPlzBp79+tcqYwkPlZ/Jkb3CfR7GGCECWZYYG2w9wI2oCP5
+  </data>
+ </layer>
+ <objectgroup name="groundAndCeiling">
+  <object id="6" x="0" y="0" width="10720" height="160"/>
+  <object id="7" x="0" y="1280" width="10720" height="160"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="11" x="9280" y="160" width="160" height="160"/>
+  <object id="12" x="9120" y="480" width="160" height="160"/>
+  <object id="13" x="8960" y="640" width="160" height="160"/>
+  <object id="14" x="9280" y="960" width="160" height="160"/>
+  <object id="15" x="8480" y="960" width="160" height="160"/>
+  <object id="16" x="8320" y="800" width="160" height="160"/>
+  <object id="17" x="8320" y="320" width="160" height="160"/>
+  <object id="18" x="8000" y="1120" width="160" height="160"/>
+  <object id="19" x="7680" y="480" width="160" height="160"/>
+  <object id="20" x="7680" y="640" width="160" height="160"/>
+  <object id="21" x="7200" y="160" width="160" height="160"/>
+  <object id="22" x="6880" y="960" width="160" height="160"/>
+  <object id="23" x="6720" y="1120" width="160" height="160"/>
+  <object id="24" x="6400" y="320" width="160" height="160"/>
+  <object id="25" x="6240" y="160" width="160" height="160"/>
+  <object id="26" x="5600" y="480" width="160" height="160"/>
+  <object id="27" x="5600" y="640" width="160" height="160"/>
+  <object id="28" x="5600" y="800" width="160" height="160"/>
+  <object id="29" x="4960" y="320" width="160" height="160"/>
+  <object id="30" x="4320" y="640" width="160" height="160"/>
+  <object id="31" x="4480" y="960" width="160" height="160"/>
+  <object id="32" x="4480" y="1120" width="160" height="160"/>
+  <object id="33" x="4000" y="320" width="160" height="160"/>
+  <object id="34" x="3360" y="800" width="160" height="160"/>
+  <object id="35" x="2720" y="1120" width="160" height="160"/>
+  <object id="36" x="2720" y="160" width="160" height="160"/>
+  <object id="37" x="2240" y="480" width="160" height="160"/>
+  <object id="38" x="1600" y="640" width="160" height="160"/>
+  <object id="39" x="1440" y="800" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="horizontalShurikens"/>
+ <objectgroup name="verticalShurikens"/>
+ <objectgroup name="finishLine">
+  <object id="10" x="9760" y="160" width="160" height="1120"/>
+ </objectgroup>
+</map>

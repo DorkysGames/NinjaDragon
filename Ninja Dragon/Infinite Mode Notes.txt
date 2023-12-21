@@ -1,0 +1,6 @@
+Infinite Mode:
+Size: 506
+Horizontal Despawn: 495
+Vertical Despawn: 493
+Spike Despawn: 493
+Objects: 175 of each

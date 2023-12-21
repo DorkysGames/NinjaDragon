@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="77" height="9" tilewidth="160" tileheight="160" nextobjectid="46">
+ <tileset firstgid="1" name="background" tilewidth="160" tileheight="160" tilecount="49" columns="7">
+  <image source="background.png" width="1120" height="1120"/>
+ </tileset>
+ <tileset firstgid="50" name="spikes" tilewidth="160" tileheight="160" tilecount="1" columns="1">
+  <image source="spikes.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="51" name="silverGround" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverGround.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="58" name="silverCeiling" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverCeiling.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="65" name="Flag" tilewidth="326" tileheight="1070" tilecount="1" columns="1">
+  <image source="Flag.png" width="326" height="1070"/>
+ </tileset>
+ <layer name="background" width="77" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztybUNA0AQAEEzMzMzu//mPA184PxWmmgzmejfsuTIU6BIiXK85KtQpUadBk1a8ZKvTYcuPfoMGMZLvhFjJkyZMWcRL/mWrFizYcuOfbzkO3DkxJkLV27xku/Ogycv3nz4xku+6P9+a+I0pA==
+  </data>
+ </layer>
+ <layer name="graphics" width="77" height="9">
+  <data encoding="base64" compression="zlib">
+   eJyzYmBgsAZiGyC2BWI7ILYHYgcgthqVwypHLjCisz5KzEBXTw030AoQ6zZK/TDQ+sk1c7C5m17xRW3zqal+oNLCYDGb3m4lxT56lHWkpg1qun+oxOVgKLdoVWfD5B0JqDMGYhMgNgViMyA2B2ILILYclcMpBwAPKimv
+  </data>
+ </layer>
+ <objectgroup name="groundAndCeiling">
+  <object id="6" x="0" y="0" width="12318" height="160"/>
+  <object id="7" x="0" y="1280" width="12320" height="160"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="11" x="1440" y="480" width="160" height="160"/>
+  <object id="12" x="1440" y="800" width="160" height="160"/>
+  <object id="13" x="1760" y="640" width="160" height="160"/>
+  <object id="14" x="1920" y="1120" width="160" height="160"/>
+  <object id="15" x="2560" y="960" width="160" height="160"/>
+  <object id="16" x="2240" y="160" width="160" height="160"/>
+  <object id="17" x="2880" y="480" width="160" height="160"/>
+  <object id="18" x="3680" y="320" width="160" height="160"/>
+  <object id="19" x="3680" y="640" width="160" height="160"/>
+  <object id="20" x="3680" y="960" width="160" height="160"/>
+  <object id="21" x="4480" y="160" width="160" height="160"/>
+  <object id="22" x="4480" y="960" width="160" height="160"/>
+  <object id="23" x="4480" y="1120" width="160" height="160"/>
+  <object id="24" x="4640" y="800" width="160" height="160"/>
+  <object id="25" x="5280" y="320" width="160" height="160"/>
+  <object id="26" x="5440" y="480" width="160" height="160"/>
+  <object id="27" x="5600" y="640" width="160" height="160"/>
+  <object id="28" x="6240" y="960" width="160" height="160"/>
+  <object id="29" x="6720" y="640" width="160" height="160"/>
+  <object id="30" x="7200" y="160" width="160" height="160"/>
+  <object id="31" x="7200" y="1120" width="160" height="160"/>
+  <object id="32" x="7520" y="960" width="160" height="160"/>
+  <object id="33" x="7840" y="320" width="160" height="160"/>
+  <object id="34" x="8320" y="800" width="160" height="160"/>
+  <object id="35" x="8640" y="480" width="160" height="160"/>
+  <object id="36" x="9120" y="160" width="160" height="160"/>
+  <object id="37" x="9120" y="800" width="160" height="160"/>
+  <object id="38" x="9440" y="1120" width="160" height="160"/>
+  <object id="39" x="9760" y="160" width="160" height="160"/>
+  <object id="40" x="10080" y="640" width="160" height="160"/>
+  <object id="41" x="10240" y="480" width="160" height="160"/>
+  <object id="42" x="10400" y="320" width="160" height="160"/>
+  <object id="43" x="10880" y="800" width="160" height="160"/>
+  <object id="44" x="10720" y="960" width="160" height="160"/>
+  <object id="45" x="10720" y="1120" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="horizontalShurikens"/>
+ <objectgroup name="verticalShurikens"/>
+ <objectgroup name="finishLine">
+  <object id="10" x="11360" y="160" width="160" height="1120"/>
+ </objectgroup>
+</map>

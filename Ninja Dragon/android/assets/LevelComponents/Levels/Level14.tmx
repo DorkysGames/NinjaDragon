@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="327" height="9" tilewidth="160" tileheight="160" nextobjectid="231">
+ <tileset firstgid="1" name="background" tilewidth="160" tileheight="160" tilecount="49" columns="7">
+  <image source="background.png" width="1120" height="1120"/>
+ </tileset>
+ <tileset firstgid="50" name="spikes" tilewidth="160" tileheight="160" tilecount="1" columns="1">
+  <image source="spikes.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="51" name="silverGround" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverGround.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="58" name="silverCeiling" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverCeiling.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="65" name="Flag" tilewidth="326" tileheight="1070" tilecount="1" columns="1">
+  <image source="Flag.png" width="326" height="1070"/>
+ </tileset>
+ <layer name="background" width="327" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztycURAgEUwNBFF2dxd3fovzlyhhJ+MvNOSRIzM/sthzwKKKKEMlKfz+cL/CqoooY6Gmii5fP5fIFfGxk66KKHPgY+n88X+A0xwhgTTDHD3Ofz+QK/BZZYYY0Nttj5fD5f4LfHAUeccMYFV5/P5wv8brjjgSdeeOPj8/l8gZ+Zmf33BdYd32c=
+  </data>
+ </layer>
+ <layer name="graphics" width="327" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztWdcNxDAIzUy5nuv7L3UMECWUR7EOJH4CfrgAxmSZpulO/CB+Er+I38Qf4qVlLWtZy/5U5kmz8LsUJwK70lwj7Ebun0a29j3jDLVnZ917j7lVxET6aCShcp4XhgRLE2tbutI45drK2ltt3pkZOh6EyrdWWwjywvfwA4s+OgYjyRq/HutE7Yf2XDRr9bxTtLbXZCPUvhwMy7o09jR6leqJyrke4ZMj5FCtPme89Q7ijo1Y6yg+L6WofIDO8aPUMhby8utR92OPPNfvkR81Y6Q1F6LHVSFnW8d54WjxOG/5zHsKZQMVk9o9yvwHkIXlZdPSW0XHOyLXec0ZjYHGrZpXtmyh3xLSOWT007z6Qhyd6j30TMqsHbzrNS4Gwnc0+Fa7mnWh+pySeUh0I+uWrHivlCO0fhb9nv/ujDsQH4lPxGfiC/GV+NaylrWsZX8s+wHJtbfV
+  </data>
+ </layer>
+ <objectgroup name="groundAndCeiling">
+  <object id="6" x="0" y="0" width="52320" height="160"/>
+  <object id="7" x="0" y="1280" width="52320" height="160"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="11" x="1440" y="480" width="160" height="160"/>
+  <object id="12" x="1440" y="800" width="160" height="160"/>
+  <object id="13" x="2080" y="320" width="160" height="160"/>
+  <object id="14" x="2240" y="960" width="160" height="160"/>
+  <object id="15" x="3040" y="320" width="160" height="160"/>
+  <object id="16" x="3040" y="480" width="160" height="160"/>
+  <object id="17" x="3040" y="640" width="160" height="160"/>
+  <object id="18" x="3040" y="800" width="160" height="160"/>
+  <object id="19" x="3360" y="1120" width="160" height="160"/>
+  <object id="20" x="3680" y="160" width="160" height="160"/>
+  <object id="21" x="4000" y="480" width="160" height="160"/>
+  <object id="22" x="4160" y="960" width="160" height="160"/>
+  <object id="23" x="4640" y="160" width="160" height="160"/>
+  <object id="24" x="4960" y="640" width="160" height="160"/>
+  <object id="25" x="5120" y="800" width="160" height="160"/>
+  <object id="26" x="5280" y="960" width="160" height="160"/>
+  <object id="27" x="5760" y="320" width="160" height="160"/>
+  <object id="28" x="5760" y="480" width="160" height="160"/>
+  <object id="29" x="6560" y="160" width="160" height="160"/>
+  <object id="30" x="6560" y="960" width="160" height="160"/>
+  <object id="31" x="6560" y="1120" width="160" height="160"/>
+  <object id="32" x="7360" y="480" width="160" height="160"/>
+  <object id="35" x="7520" y="640" width="160" height="160"/>
+  <object id="36" x="7680" y="800" width="160" height="160"/>
+  <object id="37" x="8320" y="640" width="160" height="160"/>
+  <object id="38" x="8320" y="160" width="160" height="160"/>
+  <object id="39" x="8320" y="1120" width="160" height="160"/>
+  <object id="40" x="8800" y="960" width="160" height="160"/>
+  <object id="41" x="8800" y="320" width="160" height="160"/>
+  <object id="42" x="9120" y="640" width="160" height="160"/>
+  <object id="43" x="9760" y="800" width="160" height="160"/>
+  <object id="44" x="9760" y="960" width="160" height="160"/>
+  <object id="45" x="9760" y="1120" width="160" height="160"/>
+  <object id="46" x="10560" y="800" width="160" height="160"/>
+  <object id="47" x="10560" y="960" width="160" height="160"/>
+  <object id="48" x="10240" y="160" width="160" height="160"/>
+  <object id="49" x="10240" y="320" width="160" height="160"/>
+  <object id="50" x="10240" y="480" width="160" height="160"/>
+  <object id="51" x="11040" y="320" width="160" height="160"/>
+  <object id="52" x="11040" y="480" width="160" height="160"/>
+  <object id="53" x="11520" y="160" width="160" height="160"/>
+  <object id="54" x="11520" y="640" width="160" height="160"/>
+  <object id="55" x="11680" y="800" width="160" height="160"/>
+  <object id="56" x="11840" y="960" width="160" height="160"/>
+  <object id="57" x="13440" y="160" width="160" height="160"/>
+  <object id="58" x="13440" y="320" width="160" height="160"/>
+  <object id="59" x="13440" y="480" width="160" height="160"/>
+  <object id="60" x="12800" y="320" width="160" height="160"/>
+  <object id="61" x="12480" y="480" width="160" height="160"/>
+  <object id="62" x="12480" y="640" width="160" height="160"/>
+  <object id="63" x="12480" y="800" width="160" height="160"/>
+  <object id="64" x="12480" y="960" width="160" height="160"/>
+  <object id="65" x="12480" y="1120" width="160" height="160"/>
+  <object id="66" x="13760" y="800" width="160" height="160"/>
+  <object id="67" x="13760" y="960" width="160" height="160"/>
+  <object id="68" x="13760" y="1120" width="160" height="160"/>
+  <object id="69" x="14400" y="640" width="160" height="160"/>
+  <object id="70" x="14560" y="480" width="160" height="160"/>
+  <object id="71" x="14720" y="320" width="160" height="160"/>
+  <object id="72" x="15200" y="160" width="160" height="160"/>
+  <object id="73" x="15360" y="320" width="160" height="160"/>
+  <object id="74" x="15520" y="480" width="160" height="160"/>
+  <object id="75" x="15200" y="800" width="160" height="160"/>
+  <object id="76" x="14880" y="1120" width="160" height="160"/>
+  <object id="77" x="16480" y="640" width="160" height="160"/>
+  <object id="78" x="16480" y="960" width="160" height="160"/>
+  <object id="79" x="16960" y="320" width="160" height="160"/>
+  <object id="80" x="17600" y="800" width="160" height="160"/>
+  <object id="81" x="17600" y="1120" width="160" height="160"/>
+  <object id="82" x="18240" y="160" width="160" height="160"/>
+  <object id="83" x="18400" y="480" width="160" height="160"/>
+  <object id="84" x="18560" y="800" width="160" height="160"/>
+  <object id="85" x="18560" y="1120" width="160" height="160"/>
+  <object id="86" x="19360" y="640" width="160" height="160"/>
+  <object id="87" x="19520" y="480" width="160" height="160"/>
+  <object id="88" x="19680" y="320" width="160" height="160"/>
+  <object id="89" x="19680" y="1120" width="160" height="160"/>
+  <object id="90" x="20000" y="960" width="160" height="160"/>
+  <object id="91" x="20000" y="160" width="160" height="160"/>
+  <object id="92" x="20640" y="480" width="160" height="160"/>
+  <object id="93" x="20800" y="800" width="160" height="160"/>
+  <object id="94" x="21120" y="1120" width="160" height="160"/>
+  <object id="95" x="21280" y="480" width="160" height="160"/>
+  <object id="98" x="21120" y="160" width="160" height="160"/>
+  <object id="99" x="21760" y="320" width="160" height="160"/>
+  <object id="100" x="22400" y="960" width="160" height="160"/>
+  <object id="101" x="22400" y="1120" width="160" height="160"/>
+  <object id="102" x="23040" y="480" width="160" height="160"/>
+  <object id="103" x="23040" y="320" width="160" height="160"/>
+  <object id="104" x="23040" y="160" width="160" height="160"/>
+  <object id="105" x="23200" y="1120" width="160" height="160"/>
+  <object id="106" x="23680" y="800" width="160" height="160"/>
+  <object id="107" x="24000" y="320" width="160" height="160"/>
+  <object id="108" x="24320" y="160" width="160" height="160"/>
+  <object id="109" x="24480" y="320" width="160" height="160"/>
+  <object id="110" x="24480" y="960" width="160" height="160"/>
+  <object id="111" x="24320" y="1120" width="160" height="160"/>
+  <object id="112" x="25120" y="640" width="160" height="160"/>
+  <object id="113" x="25440" y="160" width="160" height="160"/>
+  <object id="114" x="25440" y="1120" width="160" height="160"/>
+  <object id="115" x="26080" y="480" width="160" height="160"/>
+  <object id="116" x="26560" y="160" width="160" height="160"/>
+  <object id="117" x="26880" y="800" width="160" height="160"/>
+  <object id="118" x="26560" y="1120" width="160" height="160"/>
+  <object id="119" x="27520" y="160" width="160" height="160"/>
+  <object id="120" x="27840" y="640" width="160" height="160"/>
+  <object id="121" x="28320" y="1120" width="160" height="160"/>
+  <object id="122" x="28320" y="160" width="160" height="160"/>
+  <object id="123" x="28800" y="320" width="160" height="160"/>
+  <object id="124" x="28800" y="480" width="160" height="160"/>
+  <object id="125" x="28800" y="800" width="160" height="160"/>
+  <object id="126" x="28800" y="960" width="160" height="160"/>
+  <object id="127" x="29280" y="480" width="160" height="160"/>
+  <object id="128" x="29280" y="640" width="160" height="160"/>
+  <object id="129" x="29280" y="800" width="160" height="160"/>
+  <object id="130" x="29600" y="960" width="160" height="160"/>
+  <object id="131" x="29600" y="1120" width="160" height="160"/>
+  <object id="132" x="29600" y="160" width="160" height="160"/>
+  <object id="133" x="29920" y="320" width="160" height="160"/>
+  <object id="134" x="29920" y="480" width="160" height="160"/>
+  <object id="135" x="30240" y="800" width="160" height="160"/>
+  <object id="136" x="30400" y="960" width="160" height="160"/>
+  <object id="137" x="31040" y="640" width="160" height="160"/>
+  <object id="138" x="30880" y="320" width="160" height="160"/>
+  <object id="139" x="31520" y="160" width="160" height="160"/>
+  <object id="140" x="31520" y="1120" width="160" height="160"/>
+  <object id="141" x="32320" y="800" width="160" height="160"/>
+  <object id="142" x="32480" y="640" width="160" height="160"/>
+  <object id="143" x="32960" y="160" width="160" height="160"/>
+  <object id="144" x="33120" y="320" width="160" height="160"/>
+  <object id="145" x="33280" y="480" width="160" height="160"/>
+  <object id="146" x="33920" y="1120" width="160" height="160"/>
+  <object id="147" x="34080" y="960" width="160" height="160"/>
+  <object id="148" x="34240" y="640" width="160" height="160"/>
+  <object id="149" x="34720" y="960" width="160" height="160"/>
+  <object id="150" x="34880" y="480" width="160" height="160"/>
+  <object id="151" x="35200" y="160" width="160" height="160"/>
+  <object id="152" x="35840" y="480" width="160" height="160"/>
+  <object id="153" x="35520" y="960" width="160" height="160"/>
+  <object id="154" x="36320" y="800" width="160" height="160"/>
+  <object id="155" x="36320" y="160" width="160" height="160"/>
+  <object id="156" x="36960" y="320" width="160" height="160"/>
+  <object id="157" x="36640" y="1120" width="160" height="160"/>
+  <object id="158" x="37280" y="960" width="160" height="160"/>
+  <object id="159" x="37760" y="160" width="160" height="160"/>
+  <object id="160" x="38080" y="800" width="160" height="160"/>
+  <object id="161" x="38560" y="480" width="160" height="160"/>
+  <object id="162" x="39200" y="160" width="160" height="160"/>
+  <object id="163" x="39360" y="960" width="160" height="160"/>
+  <object id="164" x="38720" y="1120" width="160" height="160"/>
+  <object id="165" x="39680" y="800" width="160" height="160"/>
+  <object id="166" x="40480" y="320" width="160" height="160"/>
+  <object id="167" x="40800" y="960" width="160" height="160"/>
+  <object id="168" x="40960" y="800" width="160" height="160"/>
+  <object id="169" x="41120" y="160" width="160" height="160"/>
+  <object id="170" x="41440" y="480" width="160" height="160"/>
+  <object id="171" x="41600" y="640" width="160" height="160"/>
+  <object id="172" x="41920" y="800" width="160" height="160"/>
+  <object id="173" x="41760" y="960" width="160" height="160"/>
+  <object id="174" x="42560" y="320" width="160" height="160"/>
+  <object id="175" x="42560" y="160" width="160" height="160"/>
+  <object id="176" x="43200" y="800" width="160" height="160"/>
+  <object id="177" x="43200" y="960" width="160" height="160"/>
+  <object id="178" x="43520" y="640" width="160" height="160"/>
+  <object id="179" x="44480" y="160" width="160" height="160"/>
+  <object id="180" x="44480" y="320" width="160" height="160"/>
+  <object id="181" x="44320" y="960" width="160" height="160"/>
+  <object id="182" x="44320" y="1120" width="160" height="160"/>
+  <object id="183" x="44960" y="800" width="160" height="160"/>
+  <object id="184" x="45120" y="640" width="160" height="160"/>
+  <object id="185" x="45280" y="480" width="160" height="160"/>
+  <object id="186" x="45920" y="960" width="160" height="160"/>
+  <object id="187" x="45760" y="1120" width="160" height="160"/>
+  <object id="188" x="45920" y="160" width="160" height="160"/>
+  <object id="189" x="46240" y="320" width="160" height="160"/>
+  <object id="190" x="47040" y="160" width="160" height="160"/>
+  <object id="191" x="47040" y="320" width="160" height="160"/>
+  <object id="192" x="46880" y="800" width="160" height="160"/>
+  <object id="193" x="46560" y="1120" width="160" height="160"/>
+  <object id="194" x="47680" y="480" width="160" height="160"/>
+  <object id="195" x="48480" y="1120" width="160" height="160"/>
+  <object id="196" x="48640" y="960" width="160" height="160"/>
+  <object id="197" x="48160" y="160" width="160" height="160"/>
+  <object id="198" x="48800" y="320" width="160" height="160"/>
+  <object id="199" x="49440" y="480" width="160" height="160"/>
+  <object id="200" x="49920" y="800" width="160" height="160"/>
+  <object id="201" x="50080" y="1120" width="160" height="160"/>
+  <object id="202" x="50400" y="480" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="horizontalShurikens">
+  <object id="203" x="48960" y="800" width="160" height="160"/>
+  <object id="204" x="48960" y="640" width="160" height="160"/>
+  <object id="205" x="44320" y="480" width="160" height="160"/>
+  <object id="214" x="26560" y="800" width="160" height="160"/>
+  <object id="217" x="18240" y="960" width="160" height="160"/>
+  <object id="218" x="7040" y="800" width="160" height="160"/>
+  <object id="219" x="8160" y="320" width="160" height="160"/>
+  <object id="221" x="36640" y="640" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="verticalShurikens">
+  <object id="206" x="40160" y="640" width="160" height="160"/>
+  <object id="207" x="42400" y="800" width="160" height="160"/>
+  <object id="208" x="37600" y="800" width="160" height="160"/>
+  <object id="209" x="33600" y="480" width="160" height="160"/>
+  <object id="211" x="31840" y="480" width="160" height="160"/>
+  <object id="212" x="31840" y="800" width="160" height="160"/>
+  <object id="213" x="27200" y="640" width="160" height="160"/>
+  <object id="215" x="22720" y="640" width="160" height="160"/>
+  <object id="216" x="16000" y="480" width="160" height="160"/>
+  <object id="220" x="25760" y="800" width="160" height="160"/>
+  <object id="222" x="38880" y="640" width="160" height="160"/>
+  <object id="228" x="50880" y="480" width="160" height="160"/>
+  <object id="229" x="50880" y="800" width="160" height="160"/>
+  <object id="230" x="50720" y="1120" width="160" height="160"/>
+ </objectgroup>
+ <objectgroup name="finishLine">
+  <object id="10" x="51360" y="160" width="160" height="1120"/>
+ </objectgroup>
+</map>

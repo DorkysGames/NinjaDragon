@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "44531035409",
+    "firebase_url": "https://dorky-games.firebaseio.com",
+    "project_id": "dorky-games",
+    "storage_bucket": "dorky-games.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44531035409:android:93e20e9385a29c21",
+        "android_client_info": {
+          "package_name": "com.mygdx.NinjaDragon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44531035409-4jvnsllq5bres1r8sqo93uv8bvgfnmp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mygdx.NinjaDragon",
+            "certificate_hash": "DA3EF380E6405764D364E1EF0F4C8EA885DBCCE5"
+          }
+        },
+        {
+          "client_id": "44531035409-a6bqceukp7s5bm4b2scsqn9vc88qg2b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWf8-9zwS11crdcfThKVkptVQ2OXeTQ_0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44531035409-a6bqceukp7s5bm4b2scsqn9vc88qg2b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

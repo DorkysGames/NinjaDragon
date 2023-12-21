@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="507" height="9" tilewidth="160" tileheight="160" nextobjectid="6">
+ <tileset firstgid="1" name="background" tilewidth="160" tileheight="160" tilecount="49" columns="7">
+  <image source="background.png" width="1120" height="1120"/>
+ </tileset>
+ <tileset firstgid="50" name="spikes" tilewidth="160" tileheight="160" tilecount="1" columns="1">
+  <image source="spikes.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="51" name="silverGround" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverGround.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="58" name="silverCeiling" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverCeiling.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="65" name="Flag" tilewidth="160" tileheight="160" tilecount="12" columns="2">
+  <image source="Flag.png" width="326" height="1070"/>
+ </tileset>
+ <layer name="background" width="507" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztydVRA1AAAMHgEFyCO4Tg0n9zXB1v9mbuaycTSZI0cku93Cu92mu93huMMcYYG8I2e6unvd07vdt7jDHGGBvC9vugD/uoj/ukZ4wxxhgbwk77rM/7oi/7qq8ZY4wxNoTd9G3f9X0/9GM/McYYY2wIe+55v/SiX/ut3xljjDE2hH30Z3/1d//0b/8xxhhjbAiTJElj9w8aTVp7
+  </data>
+ </layer>
+ <layer name="graphics" width="507" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztyckJgEAUBcGfk+uMa/5R+cAolCroU/eq2tKejnSmK92pe57neZ73+QcAAAAAAAAAAAAAAAAAvIY0pinNaUlrap7neZ7n/eI9pcTjtg==
+  </data>
+ </layer>
+ <objectgroup name="groundAndCeiling">
+  <object id="1" x="0" y="-0.377214" width="81119.1" height="159.371"/>
+  <object id="2" x="0" y="1279.75" width="81117.5" height="159.363"/>
+ </objectgroup>
+ <objectgroup name="spikes"/>
+ <objectgroup name="horizontalShurikens"/>
+ <objectgroup name="verticalShurikens"/>
+ <objectgroup name="finishLine"/>
+</map>

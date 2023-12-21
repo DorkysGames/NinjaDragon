@@ -1,0 +1,215 @@
+levelSelectButtons.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hyperModeCleared
+  rotate: false
+  xy: 1, 195
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level10Btn
+  rotate: false
+  xy: 430, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level11Btn
+  rotate: false
+  xy: 1, 98
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level12Btn
+  rotate: false
+  xy: 82, 195
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level13Btn
+  rotate: false
+  xy: 511, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level14Btn
+  rotate: false
+  xy: 1, 1
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level15Btn
+  rotate: false
+  xy: 82, 98
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level16Btn
+  rotate: false
+  xy: 163, 195
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level17Btn
+  rotate: false
+  xy: 592, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level18Btn
+  rotate: false
+  xy: 82, 1
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level19Btn
+  rotate: false
+  xy: 163, 98
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level1Btn
+  rotate: false
+  xy: 244, 195
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level20Btn
+  rotate: false
+  xy: 673, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level21Btn
+  rotate: false
+  xy: 163, 1
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level22Btn
+  rotate: false
+  xy: 244, 98
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level23Btn
+  rotate: false
+  xy: 325, 195
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level24Btn
+  rotate: false
+  xy: 754, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level25Btn
+  rotate: false
+  xy: 244, 1
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level2Btn
+  rotate: false
+  xy: 325, 98
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level3Btn
+  rotate: false
+  xy: 835, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level4Btn
+  rotate: false
+  xy: 325, 1
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level5Btn
+  rotate: false
+  xy: 916, 369
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level6Btn
+  rotate: false
+  xy: 430, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level7Btn
+  rotate: false
+  xy: 511, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level8Btn
+  rotate: false
+  xy: 592, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+level9Btn
+  rotate: false
+  xy: 673, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+levelCleared
+  rotate: false
+  xy: 754, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+levelLocked
+  rotate: false
+  xy: 835, 272
+  size: 80, 96
+  orig: 80, 96
+  offset: 0, 0
+  index: -1
+levelSelectHeaderText
+  rotate: false
+  xy: 1, 292
+  size: 428, 173
+  orig: 428, 173
+  offset: 0, 0
+  index: -1
+secretLevelBtn
+  rotate: false
+  xy: 916, 313
+  size: 30, 55
+  orig: 30, 55
+  offset: 0, 0
+  index: -1

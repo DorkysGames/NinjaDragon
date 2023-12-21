@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gdx-0.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ninja Dragon/android/libs/gdx-0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

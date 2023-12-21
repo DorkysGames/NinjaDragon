@@ -1,0 +1,68 @@
+Invincibility.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Invincibility0
+  rotate: false
+  xy: 1, 309
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility1
+  rotate: false
+  xy: 1, 155
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility2
+  rotate: false
+  xy: 202, 309
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility3
+  rotate: false
+  xy: 1, 1
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility4
+  rotate: false
+  xy: 202, 155
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility5
+  rotate: false
+  xy: 403, 309
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility6
+  rotate: false
+  xy: 202, 1
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility7
+  rotate: false
+  xy: 403, 155
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1
+Invincibility8
+  rotate: false
+  xy: 604, 309
+  size: 200, 153
+  orig: 200, 153
+  offset: 0, 0
+  index: -1

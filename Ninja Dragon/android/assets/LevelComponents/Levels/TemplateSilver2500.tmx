@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="1007" height="9" tilewidth="160" tileheight="160" nextobjectid="4">
+ <tileset firstgid="1" name="background" tilewidth="160" tileheight="160" tilecount="49" columns="7">
+  <image source="background.png" width="1120" height="1120"/>
+ </tileset>
+ <tileset firstgid="50" name="spikes" tilewidth="160" tileheight="160" tilecount="1" columns="1">
+  <image source="spikes.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="51" name="silverGround" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverGround.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="58" name="silverCeiling" tilewidth="160" tileheight="160" tilecount="7" columns="7">
+  <image source="silverCeiling.png" width="1120" height="160"/>
+ </tileset>
+ <tileset firstgid="65" name="Flag" tilewidth="160" tileheight="160" tilecount="12" columns="2">
+  <image source="Flag.png" width="326" height="1070"/>
+ </tileset>
+ <layer name="background" width="1007" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztyUVSA0AAAMHgEFyCO4Tg8v/PMc/YQ0/VnHoykSRJkiRJI7fUy73Sq73W673BGGOMMcYYY4yxIWyzt3ra273Tu73HGGOMMcYYY4yxIWy/D/qwj/q4T3rGGGOMMcYYY4yxIey0z/q8L/qyr/qaMcYYY4wxxhhjQ9hN3/Zd3/dDP/YTY4wxxhhjjDHGhrDnnvdLL/q13/qdMcYYY4wxxhhjQ9hHf/ZXf/dP//YfY4wxxhhjjDHGhjBJkiRJkjR2/+wksGs=
+  </data>
+ </layer>
+ <layer name="graphics" width="1007" height="9">
+  <data encoding="base64" compression="zlib">
+   eJztyccNgEAQBMHNCXuHzT8qJggkeFRJ/epeVVva05HOdKU7dc/zPM/zPM/zPM/zPn8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8Z0hjmtKclrSm5nme53me53me53neL94DSNDEZw==
+  </data>
+ </layer>
+ <objectgroup name="groundAndCeiling">
+  <object id="1" x="-320" y="0" width="161440" height="160"/>
+  <object id="2" x="-320" y="1280" width="161440" height="160"/>
+ </objectgroup>
+ <objectgroup name="spikes"/>
+ <objectgroup name="horizontalShurikens"/>
+ <objectgroup name="verticalShurikens"/>
+ <objectgroup name="finishLine"/>
+</map>

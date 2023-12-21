@@ -1,0 +1,180 @@
+PlayStateTextures.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+BackToLevelSelect
+  rotate: false
+  xy: 600, 52
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+BackToMainMenu
+  rotate: false
+  xy: 710, 51
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+DoNotShowAgain
+  rotate: false
+  xy: 876, 224
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+DoNotShowAgainChecked
+  rotate: false
+  xy: 460, 21
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+Dragon
+  rotate: false
+  xy: 0, 879
+  size: 1024, 128
+  orig: 1024, 128
+  offset: 0, 0
+  index: -1
+FlyDownButton
+  rotate: false
+  xy: 844, 659
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+FlyUpButton
+  rotate: false
+  xy: 844, 568
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+GotItButton
+  rotate: false
+  xy: 750, 142
+  size: 139, 76
+  orig: 139, 76
+  offset: 0, 0
+  index: -1
+InvincibilityButton
+  rotate: false
+  xy: 844, 477
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+NextLevelButton
+  rotate: false
+  xy: 820, 51
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+RestartLevelButton
+  rotate: false
+  xy: 876, 295
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+ResumeGameButton
+  rotate: false
+  xy: 350, 1
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+ShieldButton
+  rotate: false
+  xy: 844, 386
+  size: 125, 90
+  orig: 125, 90
+  offset: 0, 0
+  index: -1
+Shuriken
+  rotate: false
+  xy: 364, 219
+  size: 512, 128
+  orig: 512, 128
+  offset: 0, 0
+  index: -1
+TutorialBackground
+  rotate: false
+  xy: 0, 301
+  size: 364, 448
+  orig: 364, 448
+  offset: 0, 0
+  index: -1
+backgroundBrown
+  rotate: false
+  xy: 364, 549
+  size: 480, 200
+  orig: 480, 200
+  offset: 0, 0
+  index: -1
+backgroundGrey
+  rotate: false
+  xy: 364, 348
+  size: 480, 200
+  orig: 480, 200
+  offset: 0, 0
+  index: -1
+disabeledVideoButton
+  rotate: false
+  xy: 0, 16
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1
+dragonShielded
+  rotate: false
+  xy: 0, 750
+  size: 1024, 128
+  orig: 1024, 128
+  offset: 0, 0
+  index: -1
+flag
+  rotate: false
+  xy: 953, 244
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+menuBackground
+  rotate: false
+  xy: 0, 67
+  size: 350, 233
+  orig: 350, 233
+  offset: 0, 0
+  index: -1
+newHighScoreImage
+  rotate: false
+  xy: 969, 701
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+notificationBackground
+  rotate: false
+  xy: 350, 143
+  size: 400, 75
+  orig: 400, 75
+  offset: 0, 0
+  index: -1
+pauseButton
+  rotate: false
+  xy: 537, 31
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+videoButton
+  rotate: false
+  xy: 350, 92
+  size: 250, 50
+  orig: 250, 50
+  offset: 0, 0
+  index: -1

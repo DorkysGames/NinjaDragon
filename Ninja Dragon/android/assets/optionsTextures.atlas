@@ -1,0 +1,187 @@
+optionsTextures.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+buttonLayoutText
+  rotate: false
+  xy: 742, 975
+  size: 168, 40
+  orig: 168, 40
+  offset: 0, 0
+  index: -1
+greyOffButton
+  rotate: false
+  xy: 668, 889
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+greyOnButton
+  rotate: false
+  xy: 172, 67
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+hyperModeText
+  rotate: false
+  xy: 1, 1
+  size: 137, 40
+  orig: 137, 40
+  offset: 0, 0
+  index: -1
+innerChecked
+  rotate: false
+  xy: 268, 209
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+innerText
+  rotate: false
+  xy: 742, 944
+  size: 88, 30
+  orig: 88, 30
+  offset: 0, 0
+  index: -1
+innerUnchecked
+  rotate: false
+  xy: 497, 864
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+leftButtonsChecked
+  rotate: false
+  xy: 1, 42
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+leftButtonsUnchecked
+  rotate: false
+  xy: 497, 778
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+musicOff
+  rotate: false
+  xy: 497, 332
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+musicOn
+  rotate: false
+  xy: 668, 828
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+musicText
+  rotate: false
+  xy: 497, 393
+  size: 93, 40
+  orig: 93, 40
+  offset: 0, 0
+  index: -1
+offButton
+  rotate: false
+  xy: 668, 767
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+onButton
+  rotate: false
+  xy: 668, 706
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+optionsFrame
+  rotate: false
+  xy: 1, 295
+  size: 495, 720
+  orig: 495, 720
+  offset: 0, 0
+  index: -1
+optionsHeaderText
+  rotate: false
+  xy: 1, 194
+  size: 266, 100
+  orig: 266, 100
+  offset: 0, 0
+  index: -1
+outerChecked
+  rotate: false
+  xy: 497, 692
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+outerText
+  rotate: false
+  xy: 831, 944
+  size: 77, 30
+  orig: 77, 30
+  offset: 0, 0
+  index: -1
+outerUnchecked
+  rotate: false
+  xy: 497, 606
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+rightButtonsChecked
+  rotate: false
+  xy: 497, 520
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+rightButtonsUnchecked
+  rotate: false
+  xy: 497, 434
+  size: 170, 85
+  orig: 170, 85
+  offset: 0, 0
+  index: -1
+soundOff
+  rotate: false
+  xy: 668, 645
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+soundOn
+  rotate: false
+  xy: 668, 584
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+soundText
+  rotate: false
+  xy: 911, 975
+  size: 93, 40
+  orig: 93, 40
+  offset: 0, 0
+  index: -1
+touchScreenButton
+  rotate: false
+  xy: 497, 950
+  size: 244, 65
+  orig: 244, 65
+  offset: 0, 0
+  index: -1
+touchScreenButtonChecked
+  rotate: false
+  xy: 1, 128
+  size: 244, 65
+  orig: 244, 65
+  offset: 0, 0
+  index: -1

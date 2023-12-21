@@ -1,0 +1,82 @@
+menuTextures.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+NinjaDragonTitle
+  rotate: false
+  xy: 482, 703
+  size: 360, 251
+  orig: 360, 251
+  offset: 0, 0
+  index: -1
+achievementsBtn
+  rotate: false
+  xy: 1, 103
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+backButton
+  rotate: false
+  xy: 1, 1
+  size: 64, 50
+  orig: 64, 50
+  offset: 0, 0
+  index: -1
+infiniteModeBtn
+  rotate: false
+  xy: 482, 418
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+levelSelectBtn
+  rotate: false
+  xy: 1, 52
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+mainMenuBackground
+  rotate: false
+  xy: 1, 154
+  size: 480, 800
+  orig: 480, 800
+  offset: 0, 0
+  index: -1
+menuBackground
+  rotate: false
+  xy: 482, 469
+  size: 350, 233
+  orig: 350, 233
+  offset: 0, 0
+  index: -1
+noButton
+  rotate: false
+  xy: 843, 864
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1
+optionsBtn
+  rotate: false
+  xy: 202, 103
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+policyBtn
+  rotate: false
+  xy: 482, 367
+  size: 200, 50
+  orig: 200, 50
+  offset: 0, 0
+  index: -1
+yesButton
+  rotate: false
+  xy: 683, 378
+  size: 110, 90
+  orig: 110, 90
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+Applications Memory Usage (kB):
+Uptime: 1056241 Realtime: 1056223
+
+** MEMINFO in pid 13373 [com.mygdx.NinjaDragon] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap       52       52        0        0    36968    24697      659
+  Dalvik Heap    11330    10784        0        0    19544    14316     5228
+ Dalvik Other     3861     3800        0        0                           
+        Stack      504      504        0        0                           
+       Ashmem      204      200        0        0                           
+    Other dev    11779     5592       20        0                           
+     .so mmap     7490      844     1672        0                           
+    .jar mmap        0        0        0        0                           
+    .apk mmap      302        0        8        0                           
+    .ttf mmap       32        0       32        0                           
+    .dex mmap     5210      116     4048        0                           
+   Other mmap     1034       28      972        0                           
+      Unknown    28428    28424        0        0                           
+        TOTAL    70226    50344     6752        0    56512    39013     5887
+ 
+ Objects
+               Views:       16         ViewRootImpl:        1
+         AppContexts:        5           Activities:        1
+              Assets:        5        AssetManagers:        5
+       Local Binders:       28        Proxy Binders:       25
+    Death Recipients:        0
+     OpenSSL Sockets:        3
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
