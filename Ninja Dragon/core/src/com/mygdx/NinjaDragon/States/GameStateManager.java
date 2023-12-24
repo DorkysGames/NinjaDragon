@@ -1,6 +1,6 @@
 package com.mygdx.NinjaDragon.States;
 
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.SpriteBatch;
 
 import java.util.Stack;
 
