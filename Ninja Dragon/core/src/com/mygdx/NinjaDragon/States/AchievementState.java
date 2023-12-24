@@ -4,7 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.SpriteBatch;
 import com.mygdx.NinjaDragon.Tools.AchievementStateButtons;
 import com.mygdx.NinjaDragon.Tools.AdHandler;
 

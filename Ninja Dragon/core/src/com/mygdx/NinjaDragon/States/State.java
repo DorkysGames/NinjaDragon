@@ -3,7 +3,7 @@ package com.mygdx.NinjaDragon.States;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.SpriteBatch;
 import com.mygdx.NinjaDragon.Tools.AdHandler;
 
 /**
